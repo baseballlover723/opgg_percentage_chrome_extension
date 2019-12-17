@@ -1,0 +1,11 @@
+{
+  "manifest_version": 2,
+  "name": "op.gg percentages",
+  "description": "Adds gold and damage percentage to op.gg's League of Legends match history",
+  "version": "0.1.0",
+  "content_scripts": [{
+    "css": ["styles.css"],
+    "js": ["content.js"],
+    "matches": ["*://*.op.gg/*"]
+  }]
+}
