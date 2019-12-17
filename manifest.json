@@ -5,7 +5,7 @@
   "version": "0.1.0",
   "content_scripts": [{
     "css": ["styles.css"],
-    "js": ["content.js"],
+    "js": ["jquery-3.4.1.js", "content.js"],
     "matches": ["*://*.op.gg/*"]
   }]
 }
